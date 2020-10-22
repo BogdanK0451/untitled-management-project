@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddProjections</class>
+ <widget class="QDialog" name="AddProjections">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dodaj projekcije</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton_AddProjections">
+     <property name="text">
+      <string>Dodaj projekcije</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget_Halls">
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>90</number>
+     </attribute>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_Back">
+     <property name="text">
+      <string>Nazad</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget_Films">
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>110</number>
+     </attribute>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <layout class="QFormLayout" name="formLayout_2">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_1">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_1">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_1">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_1">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_2">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_2">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_2">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_2">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_2">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form3_3">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_3">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_3">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_3">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_3">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_4">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_4">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_4">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_4">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_4">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="4" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_5">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_5">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_5">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_5">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_5">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="5" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_6">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_6">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_6">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_6">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_6">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="6" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_7">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_7">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_7">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_7">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_7">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="7" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_8">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_8">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 8</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_8">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_8">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_8">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="8" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_Form2_9">
+       <item>
+        <widget class="QCheckBox" name="checkBox_Termin_9">
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Termin 9</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminH_9">
+         <property name="maximum">
+          <number>23</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_Colon_9">
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_TerminM_9">
+         <property name="maximum">
+          <number>30</number>
+         </property>
+         <property name="singleStep">
+          <number>30</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

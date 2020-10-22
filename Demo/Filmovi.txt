@@ -1,0 +1,4 @@
+Test2;2;75;Foo;24.06.2018;27.06.2018;/home/zul1/Desktop/Rezervacije/Slike/dummy-454x280-White.jpg;15;N/A;N/A;N/A;N/A
+Test3;17;120;Foo2;28.06.2018;30.07.2018;/home/zul1/Desktop/Rezervacije/Slike/dummy-315x560-Comb.jpg;N/A;N/A;N/A;N/A;N/A
+Test4;5;60;Foo3;30.06.2018;14.07.2018;/home/zul1/Desktop/Rezervacije/Slike/dummy-100x100-RedDots.jpg;N/A;N/A;N/A;N/A;N/A
+Test5;7;61;Tester;24.06.2018;28.06.2018;/home/zul1/Desktop/Rezervacije/Slike/dummy-576x1024-Stripes.jpg;N/A;N/A;N/A;N/A;N/A
